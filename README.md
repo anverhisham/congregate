@@ -44,13 +44,13 @@
        congregate('expression',isFillWithNan,squeezeLevel)
  #### Description
  #####      isFillWithNan
-If set to true, then the absent fields would be regarded as NaN. 
+      If set to true, then the absent fields would be regarded as NaN. 
 Otherwise, if the field is absent then throws an error. 
 Default value is true.       
        
 #####       squeezeLevel 
-Determines the level of squeezing of the input. Squeezing is defined as the removal of all singleton dimensions in a matrix/cell.
-               'squeezeLevel' = 0 is the default, which implies no squeezing
+     Determines the level of squeezing of the input. Squeezing is defined as the removal of all singleton dimensions in a matrix/cell.
+               'squeezeLevel' = 0 is the default, which implies no squeezing.
                'squeezeLevel' = 1 implies moderate squeezing, where the content inside cells are squeezed.
                'squeezeLevel' = 2 implies high level squeezing, where the content inside both cells and matrices are squeezed.
 
